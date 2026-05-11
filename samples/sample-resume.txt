@@ -1,0 +1,21 @@
+Amulya Oruganti
+Computer Science Student
+
+Education:
+Mahindra University, B.Tech Computer Science, 2027
+
+Skills:
+React, JavaScript, Node.js, Express.js, MongoDB, REST APIs, JWT Authentication, Python, MySQL, GitHub
+
+Projects:
+1. Travel Planner Web App
+Built a full-stack travel planning platform using React, Express.js, MongoDB, and Groq API. Users select vibe, budget, and trip duration. The backend generates personalized itineraries and stores trip history.
+
+2. Event Management API
+Built REST APIs using Node.js and Express.js with JWT authentication and role-based middleware. Tested APIs using Thunder Client.
+
+3. Human Label Distribution Prediction
+Used PyTorch and ResNet-18 to predict soft label distributions on CIFAR-10H. Evaluated using KL divergence, Jensen-Shannon distance, cosine similarity, and entropy-based ranking.
+
+Target Role:
+Full Stack Developer Intern or Backend Developer Intern

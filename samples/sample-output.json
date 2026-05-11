@@ -1,0 +1,102 @@
+{
+  "resumeAnalysis": {
+    "candidateSummary": "Computer science student with practical full-stack development experience using React, Express.js, MongoDB, JWT authentication, and AI API integration.",
+    "topSkills": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "JWT",
+      "Python"
+    ],
+    "recommendedRoles": [
+      {
+        "role": "Full Stack Developer Intern",
+        "matchScore": 88,
+        "whyThisRoleFits": "Resume includes frontend, backend, database, authentication, and AI API project work.",
+        "focusAreas": [
+          "React components",
+          "Express routes",
+          "JWT authentication",
+          "MongoDB schemas",
+          "API integration"
+        ],
+        "weakAreasToProbe": [
+          "deployment",
+          "testing",
+          "system design basics"
+        ]
+      },
+      {
+        "role": "Backend Developer Intern",
+        "matchScore": 81,
+        "whyThisRoleFits": "Candidate has REST API and authentication experience.",
+        "focusAreas": [
+          "API design",
+          "middleware",
+          "security",
+          "database models"
+        ],
+        "weakAreasToProbe": [
+          "scalability",
+          "error handling",
+          "database indexing"
+        ]
+      }
+    ]
+  },
+  "jobRecommendations": [
+    {
+      "title": "Full Stack Developer Intern",
+      "company": "Sample SaaS Startup",
+      "location": "Hyderabad / Remote",
+      "matchScore": 86,
+      "whyFits": [
+        "Strong match with React, Express.js, MongoDB, and API integration.",
+        "Project experience shows ability to build complete web applications."
+      ],
+      "missingSkills": [
+        "deployment basics",
+        "unit testing"
+      ],
+      "suggestedApplicationAction": "Add GitHub link, live demo link, and short project impact metrics before applying."
+    }
+  ],
+  "adaptiveInterviewExample": [
+    {
+      "question": "In your Travel Planner project, how does the frontend send user preferences to the backend and how is the generated plan saved?",
+      "difficulty": "medium",
+      "reason": "The resume shows a full-stack project, so the first question validates project understanding."
+    },
+    {
+      "candidateSignal": "Candidate gave a short answer with low depth score and several pauses.",
+      "nextQuestion": "Let's go step by step. What is an API route, and why does your frontend need one to talk to the backend?",
+      "difficulty": "easy",
+      "reason": "The agent reduced difficulty because confidence and knowledge depth were low."
+    }
+  ],
+  "scores": {
+    "technicalScore": 78,
+    "depthScore": 70,
+    "clarityScore": 82,
+    "confidenceScore": 74,
+    "communicationClarityScore": 80,
+    "eyeContactScore": 83,
+    "engagementScore": 85,
+    "finalReadinessScore": 79
+  },
+  "feedback": {
+    "technical": "Good practical understanding of React and Express. Improve explanation of authentication flow and database design.",
+    "communication": "Answer was understandable, but should be structured using problem, approach, implementation, and result.",
+    "confidence": "Confidence is moderate. Reduce filler words and avoid long pauses before technical terms.",
+    "visual": "Good engagement overall. Maintain steady eye contact during longer answers.",
+    "practicePlan": [
+      "Prepare 2-minute explanation of each project.",
+      "Revise JWT flow and middleware.",
+      "Practice explaining one system design diagram.",
+      "Record one mock interview and reduce fillers."
+    ]
+  }
+}

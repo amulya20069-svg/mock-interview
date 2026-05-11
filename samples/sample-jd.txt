@@ -1,0 +1,12 @@
+Full Stack Developer Intern
+
+Responsibilities:
+- Build responsive frontend components using React.
+- Create REST APIs using Node.js and Express.js.
+- Work with MongoDB schemas and authentication.
+- Integrate AI APIs where required.
+- Debug frontend-backend data flow issues.
+- Write clean documentation and explain technical decisions.
+
+Preferred Skills:
+React, JavaScript, Node.js, Express.js, MongoDB, REST APIs, JWT, GitHub, deployment basics.
