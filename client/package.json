@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://amulya20069-svg.github.io/mock-interview-agent",
+  "homepage": "https://amulya20069-svg.github.io/mock-interview",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

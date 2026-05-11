@@ -1,34 +1,34 @@
 function Feedback({ finalFeedback, sessionData }) {
-    return (
-      <section className="card">
-        <h2>Final Interview Feedback</h2>
+return (
+<section className="card">
+<h2>Final Interview Feedback</h2>
   
-        <div className="final-score">
-          {finalFeedback.overallScore}/100
-        </div>
+<div className="final-score">
+{finalFeedback.overallScore}/100
+</div>
   
-        <h3>Technical Feedback</h3>
-        <p>{finalFeedback.technicalFeedback}</p>
+<h3>Technical Feedback</h3>
+<p>{finalFeedback.technicalFeedback}</p>
   
-        <h3>Communication Feedback</h3>
-        <p>{finalFeedback.communicationFeedback}</p>
+<h3>Communication Feedback</h3>
+<p>{finalFeedback.communicationFeedback}</p>
   
-        <h3>Confidence Feedback</h3>
-        <p>{finalFeedback.confidenceFeedback}</p>
+<h3>Confidence Feedback</h3>
+<p>{finalFeedback.confidenceFeedback}</p>
   
-        <h3>Webcam / Eye Contact Feedback</h3>
-        <p>{finalFeedback.webcamFeedback}</p>
+<h3>Webcam / Eye Contact Feedback</h3>
+<p>{finalFeedback.webcamFeedback}</p>
   
-        <h3>Attention Flags</h3>
-        {finalFeedback.cheatingOrAttentionFlags?.length > 0 ? (
-          <ul>
-            {finalFeedback.cheatingOrAttentionFlags.map((flag, index) => (
-              <li key={index}>{flag}</li>
-            ))}
-          </ul>
-        ) : (
-          <p>No major attention flags detected.</p>
-        )}
+<h3>Attention Flags</h3>
+{finalFeedback.cheatingOrAttentionFlags?.length > 0 ? (
+<ul>
+{finalFeedback.cheatingOrAttentionFlags.map((flag, index) => (
+<li key={index}>{flag}</li>
+))}
+</ul>
+) : (
+<p>No major attention flags detected.</p>
+)}
   
         <h3>Role Readiness</h3>
         <p>{finalFeedback.roleReadiness}</p>
